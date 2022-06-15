@@ -1,5 +1,6 @@
 let bd_usuarios = new Map();
 var ocupado = false;
+var logeado= false;
 x=0;
 function pruebaObj(a,b,c,d){
     let codigo=a;
@@ -59,6 +60,11 @@ function login(){
             ocupado=true;
            
         }
+        else  if (valor.name == document.getElementById('nombre').value && key == document.getElementById('contra').value){
+          
+            ocupado=true;
+           
+        }
 
         
        
@@ -66,6 +72,7 @@ function login(){
     }
     if(ocupado){
         alert("LogeoExitoso")
+        
     }
     else{
         
