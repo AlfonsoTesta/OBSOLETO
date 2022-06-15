@@ -3,7 +3,7 @@
 <div id="bg_b">
         <div id="loginH">
             <div class="close" onclick="closeLog('bg_b')">+</div>
-            <img src="imagenes/logo/logo.png" class="logo">
+            <img src="IMG/LOGO/logo.jpg" class="logo">
             <form action="">
                 <input type="text" class="text Nam" value="AAA@gmail.com" id="nombre" placeholder="Name/Email">
                 <a href="" id="recu">Forgot password?</a>
@@ -17,7 +17,7 @@
         </div>
         <div id="registerH">
             <div class="close" onclick="closeLog('bg_b')">+</div>
-            <img src="imagenes/logo/logo.png" class="logo">
+            <img src="IMG/LOGO/logo.jpg" class="logo">
             <form action="">
                 <input type="text" class="text Nam" value="AAA" id="nombre" placeholder="Full Name">
                 <input type="email"id='mail' name="Email" value="AAA@gmail.com" class="text em" placeholder="Email">
