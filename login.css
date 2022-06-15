@@ -1,0 +1,190 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Raleway', sans-serif;
+    --book_b:-10px;
+    --book_calc:2px;
+}
+#bg_b
+{
+    width:100vw;
+    height:100vh;
+    background-color: rgba(10, 12, 12, 0.7);
+    position: fixed;
+    top: 0%;
+    display: none;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    z-index:100;
+     
+}
+#loginH{
+   display:block;
+    width:30vw;
+    height:55vh;
+    background-color:white;
+    border-radius: 15px;
+    text-align:center;
+    box-shadow: 0px 0px 50px rgb(0, 0, 0);
+    position: relative;
+    animation:aparecer;
+    animation-duration: 0.5s;
+}
+#registerH{
+    display: none;
+    width:30vw;
+    height:80vh;
+    background-color:white;
+    border-radius: 15px;
+    text-align:center;
+    box-shadow: 0px 0px 50px rgb(0, 0, 0);
+    position: relative;
+    animation:aparecer;
+    animation-duration: 0.5s;
+}
+.signUp{
+    
+    width:30vw;
+    height:10vh;
+    box-shadow:0px 0px 5px black;
+    background-color:#022135;
+    border-radius: 15px;
+    margin-top: 40px;
+    justify-items: center;
+    color: white;
+    animation:aparecer;
+    animation-duration: 0.5s;
+    
+}
+.signUp p{
+    text-align: center;
+    margin-top:20px;
+    
+}
+.signUp p a{
+    cursor:pointer;
+    text-decoration:underline white;
+    transition:0.2s;
+}
+.signUp p a:hover{
+        color: rgb(181, 181, 181);
+        text-decoration:underline rgb(181, 181, 181);
+
+}
+#reg{
+    display:none;
+}
+.logo{
+    margin-top: 35px;
+    border-radius: 50%;
+    width:7vw;
+    height:7vw;
+    box-shadow:1px 1px 4px black;
+}
+#recu{
+    margin-left: 45%;
+    font-size:12px;
+    color: #034b7c;
+    font-weight: 900;
+    text-decoration: none;
+
+}
+#recu:hover{
+    color: #000d15;
+}
+
+.text
+{
+    font-family: 'Raleway', sans-serif;
+   width: 80%;
+   height:25px;
+  display: block;
+  padding-left: 5%;
+  border-radius:10px;
+  margin:15px auto;
+    margin-top: 5%;
+  box-shadow: 1px 1px 5px  black;
+  border: 2px solid #022135;;
+  transition: 0.5s;
+  outline: none;
+  font-weight: 600;
+}
+.text::placeholder{
+    color: rgba(0, 47, 77, 0.666);
+    
+}
+.Pswd{
+    margin-top:5px;
+}
+.text:focus{
+    border: 2px solid #1378b7;
+    
+}
+.date{
+    width:20%;
+    display: inline-block;
+    margin: 0px auto;
+    margin-top: 5%;
+    
+}
+.em{
+    width:52%;
+    margin: 0px auto;
+    margin-top: 5%;
+    display: inline-block;
+}
+.Nam{
+    margin-top: 11vh;
+}
+.botones{
+    background-color: #0F5C8C ;
+    width: 80%;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius:10px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    transition: 0.2s;
+    box-shadow: 1px 1px 5px  black;
+}
+.botones:hover{
+    cursor: pointer;
+    background-color:#022135;
+    
+}
+.botones:active{
+    transform: scale(0.99);
+    
+}
+.close{
+    font-weight: 900;
+   position: absolute;
+   top: 0;
+   right: 14px;
+   font-size: 48px;
+   transform: rotate(45deg);
+   cursor: pointer;
+   opacity: 0.5;
+   transition:0.2s;
+}
+.close:hover{
+    opacity:1;
+    
+}
+@keyframes aparecer {
+    0%{opacity:0;}
+    15%{opacity:0.15;}
+    20%{opacity:0.2;}
+    25%{opacity:0.25;}
+    30%{opacity:0.3;}
+    35%{opacity:0.35;}
+    50%{opacity: 0.5;}
+    55%{opacity:0.55;}
+    60%{opacity:0.6;}
+    70%{opacity:0.7;}
+    80%{opacity:0.8;}
+    90%{opacity:0.9;}
+    100%{opacity: 1;}
+}
