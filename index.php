@@ -9,6 +9,7 @@
     <title>Document</title>
 </head>
 <body>
+    <?php require 'login.php';?>
     <div class="cont">
         <?php require 'header.php';?>
         <div class="banner"></div>
@@ -80,7 +81,7 @@
         <h3>Help And support</h3>
         </div>
         <div id="contactar"></div>
-        <div id="footer"></div>
+        <?php require 'footer.php';?>
     </div>
 </body>
 </html>
