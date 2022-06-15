@@ -116,8 +116,34 @@ body{
 }
 .ad{
     margin: auto;
-    width:80%;
-    height:20vh;
+    width:70%;
+    height:15vh;
     box-shadow: 1px 1px 10px black;
     margin-top: 20vh;
+}
+.reco{
+    text-align: center;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 10% 30% 30% 30%;
+    display:grid;
+    margin: auto;
+   justify-content: center;
+    margin-top: 20vh;
+    width:90%;
+    grid-gap: 10px;
+    height: 80vh;
+    
+}
+.textoreco{
+    grid-row: 1;
+}
+.cartelito{
+    background-color: black;
+    grid-row: span 4;
+}
+.libroreco{
+    
+}
+.ab{
+    border-bottom: 2px solid black;
 }
