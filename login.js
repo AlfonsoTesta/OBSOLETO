@@ -51,26 +51,49 @@ function colorChange(){
 }
 
 
-function register(){
+function login(){
     ocupado=false;
     for (const [key,valor] of bd_usuarios.entries()) {
-        if (valor.email == document.getElementById('mail').value){
+        if (valor.email == document.getElementById('mail').value && key == document.getElementById('contra').value){
+          
             ocupado=true;
+           
         }
-        else 
-        {
-            
-            
-        }
+
+        
+       
         
     }
     if(ocupado){
-        alert("Email Ocupado");
+        alert("LogeoExitoso")
     }
     else{
-        alert("Registro exitoso")
-        userObj();
+        
+        alert("Credencial Incorrecta");
     }
+}
+function register(){
+    ocupado=false;
+    if (document.getElementById("contra").value == document.getElementById("confi").value){
+        for (const [key,valor] of bd_usuarios.entries()) {
+            if (valor.email == document.getElementById('mail').value){
+                ocupado=true;
+            }
+          
+            
+        }
+        if(ocupado){
+            alert("Email Ocupado");
+        }
+        else{
+            alert("Registro exitoso")
+            userObj();
+        }
+    }
+    else{
+        alert("Contraseñas diferentes")
+    }
+    
     
     
 }
