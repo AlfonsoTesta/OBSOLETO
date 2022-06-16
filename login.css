@@ -88,10 +88,12 @@ body{
     color: #034b7c;
     font-weight: 900;
     text-decoration: none;
+    
 
 }
 #recu:hover{
     color: #000d15;
+    cursor: pointer;
 }
 
 .text
@@ -169,9 +171,26 @@ body{
    opacity: 0.5;
    transition:0.2s;
 }
+
 .close:hover{
     opacity:1;
     
+}
+.reem{
+    margin-top: 10%;
+}
+#recuperar{
+    
+    display: none;
+    width:40vw;
+    height:30vh;
+    background-color:white;
+    border-radius: 15px;
+    text-align:center;
+    box-shadow: 0px 0px 50px rgb(0, 0, 0);
+    position: relative;
+    animation:aparecer;
+    animation-duration: 0.5s;
 }
 @keyframes aparecer {
     0%{opacity:0;}

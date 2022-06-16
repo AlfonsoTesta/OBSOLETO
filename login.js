@@ -104,4 +104,38 @@ function register(){
     
     
 }
+function restorePassword(x,y,z){
+    document.getElementById(x).style.display= "none";
+    document.getElementById(y).style.display="none";
+    document.getElementById(z).style.display="block";
+   
+   
+} 
+function restoreback(){
+    replaceLog('recuperar','loginH');
+    document.getElementById('log').style.display="block";
+}
+
+function checkEmail(){
+    ocupado=false;
+    for (const [key,valor] of bd_usuarios.entries()) {
+        if (valor.email == document.getElementById('recuperaremail').value){
+            ocupado=true;
+             llave = key;
+        }
+      
+        
+    }
+    if(ocupado){
+        alert('Si el email existe se enviara un mensaje con los pasos de recuperacion');
+        alert(llave);
+        
+        
+    }
+    else{
+        alert('Si el email existe se enviara un mensaje con los pasos de recuperacion');
+       
+    }
+}
+
 // Comprobar que un usuario este en la base de datos
