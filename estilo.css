@@ -135,6 +135,9 @@ body{
     height: 80vh;
     
 }
+.libroreco .book3d{
+    margin-top:20px;
+}
 .textoreco{
     grid-row: 1;
 }
