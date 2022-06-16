@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+    <link rel="stylesheet" href="libroporta.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -56,15 +56,15 @@
             <div class="textoreco"><p>Most View</p></div>
             <div class="textoreco"><p>On sale</p></div>
             <div class="cartelito">cartelito</div>
-            <div class="libroreco ab"></div>
-            <div class="libroreco ab"></div>
-            <div class="libroreco ab"></div>
-            <div class="libroreco ab"></div>
-            <div class="libroreco ab"></div>
-            <div class="libroreco ab"></div>
-            <div class="libroreco sb"></div>
-            <div class="libroreco sb"></div>
-            <div class="libroreco sb"></div>
+            <div class="libroreco ab"><div class="book3d " id="otro"><img src="IMG/harrypotter.png" alt=""></div></div>
+            <div class="libroreco ab"><div class="book3d " id="otro"><img src="IMG/harrypotter.png" alt=""></div></div>
+            <div class="libroreco ab"><div class="book3d " id="otro"><img src="IMG/harrypotter.png" alt=""></div></div>
+            <div class="libroreco ab"><div class="book3d " id="otro"><img src="IMG/harrypotter.png" alt=""></div></div>
+            <div class="libroreco ab"><div class="book3d " id="otro"><img src="IMG/harrypotter.png" alt=""></div></div>
+            <div class="libroreco ab"><div class="book3d " id="otro"><img src="IMG/harrypotter.png" alt=""></div></div>
+            <div class="libroreco sb"><div class="book3d " id="otro"><img src="IMG/harrypotter.png" alt=""></div></div>
+            <div class="libroreco sb"><div class="book3d " id="otro"><img src="IMG/harrypotter.png" alt=""></div></div>
+            <div class="libroreco sb"><div class="book3d " id="otro"><img src="IMG/harrypotter.png" alt=""></div></div>
             
         </section>
         <div id="recentp">
