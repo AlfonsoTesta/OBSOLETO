@@ -15,11 +15,12 @@
         <div class="banner"></div>
        
         <div class="categorias_fotos">
-           <div class="catpa r1"></div>
-            <div class="catpa r2 "></div>
-            <div class="catpa r3" ></div>
-            <div class="catpa r4"></div>
-            <div class="catpa r5 "></div>
+           <div class="catpa r1">1</div>
+            <div class="catpa r2 ">2</div>
+            <div class="catpa r3" >3</div>
+            <div class="catpa r4">4</div>
+            <div class="catpa r5 ">5</div>
+            
         </div>
        <div class="subca">
             <h2 class="subtitulo">
