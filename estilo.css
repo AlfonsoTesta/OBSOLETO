@@ -41,20 +41,20 @@ body{
     grid-gap: 20px;
 
 }
-.r12{
-    grid-row: span 2;
-    
-    
-}
+
 
 .r1{
-    grid-column:1; 
+    grid-column:1;
     grid-row: span 2;
 }
-.r2{
-    grid-column:span 2 ;
-}
 
+.r3{
+    grid-column:4;
+    grid-row: 2;
+}
+.r4{
+    grid-column: span 2;
+}
 .r5{
     grid-column:span 2;
     
