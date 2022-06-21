@@ -37,7 +37,7 @@
                 <li>CATEGORIA 3</li>
             </ul>
         </section>
-        <div class="ventalibros">
+        <div class="ventalibros"> 
             <div class="libro">1</div>
             <div class="libro">2</div>
             <div class="libro">3</div>
@@ -68,7 +68,7 @@
             <div class="libroreco sb"><div class="book3d " id="otro"><img src="IMG/harrypotter.png" alt=""></div></div>
             
         </section>
-        <div id="recentp">
+        <div id="recentp"> 
             <h2>RECENT POSTS</h2>
             <div class="imaga"><div class="estoseriaunimg"></div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatum ipsa ratione vitae officiis at nulla iste fugiat eveniet? Reprehenderit repellat, iure dolore consequuntur dolorem alias excepturi! Officiis, nesciunt at.</p></div>
             <div class="imaga"><div class="estoseriaunimg"></div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatum ipsa ratione vitae officiis at nulla iste fugiat eveniet? Reprehenderit repellat, iure dolore consequuntur dolorem alias excepturi! Officiis, nesciunt at.</p></div>
