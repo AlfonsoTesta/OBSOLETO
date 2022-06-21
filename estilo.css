@@ -3,7 +3,7 @@ body{
     margin: 0;    
     background-color: rgb(24, 24, 24);
 }
-.cont{
+.cont{ /* Div que contiene toda la pagina  */
     
     margin: auto;
     width: 90vw;
@@ -14,7 +14,7 @@ body{
     width: 100%;
     height: 26vh;
     
-}
+}/*Barra de busqueda*/
 .search{
     width: 100%;
     height: 11vh;
@@ -26,7 +26,7 @@ body{
     background-color: blue;
 }
 
-.categorias_fotos{
+.categorias_fotos{ /*Grid que contiene categorias de libros*/
    
     
     width: 90%;
@@ -42,7 +42,7 @@ body{
 
 }
 
-
+/*Cada r es un contenedor*/
 .r1{
     grid-column:1;
     grid-row: span 2;
@@ -59,14 +59,13 @@ body{
     grid-column:span 2;
     
 }
+/*Todos los contenedores*/
 .catpa{
     box-shadow: 1px 1px 5px black;
     border-radius: 7px;
 }
-.textoa1{
-   margin: auto;
-}
-.subca{
+
+.subca{ 
     justify-self: center;
     width: 100%;
     height:20vh;
@@ -97,7 +96,7 @@ body{
    
 }
 
-.ventalibros{
+.ventalibros{ /*Grid que contiene libros*/
     justify-content:center;
     width: 100%;
     height: 90vh;
@@ -115,14 +114,14 @@ body{
     
     
 }
-.ad{
+.ad{ /*Publicidad interna de la empresa*/
     margin: auto;
     width:70%;
     height:15vh;
     box-shadow: 1px 1px 10px black;
     margin-top: 20vh;
 }
-.reco{
+.reco{ /*Grid que muestra libros recomendados con una breve descripcion*/
     text-align: center;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: 10% 30% 30% 30%;
@@ -149,7 +148,7 @@ body{
 .ab{
     box-shadow: inset 0px -6px 4px -6px #888;
 }
-#recentp{
+#recentp{ /* Post recientes*/
     box-shadow: inset 0px 6px 4px -6px #888;
     
     margin-top: 20vh;
@@ -164,7 +163,7 @@ body{
     padding-top: 5%;
     
 }
-.imaga{
+.imaga{ /*Contenedor del post reciente*/
     margin-right: 15px;
     display:inline-block;
     width:30%;
@@ -172,7 +171,7 @@ body{
    justify-content: center;
    box-shadow: inset 0px -6px 4px -6px #888;
 }
-.estoseriaunimg{
+.estoseriaunimg{ 
     box-shadow: 1px 1px 5px black;
     width: 90%;
     height:60%;

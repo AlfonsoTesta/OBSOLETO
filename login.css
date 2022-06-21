@@ -5,7 +5,7 @@ body{
     --book_b:-10px;
     --book_calc:2px;
 }
-#bg_b
+#bg_b /*Fondo negro del formulario*/
 {
     width:100vw;
     height:100vh;
@@ -19,7 +19,7 @@ body{
     z-index:100;
      
 }
-#loginH{
+#loginH{ /*Holder del login*/
    display:block;
     width:30vw;
     height:55vh;
@@ -31,7 +31,7 @@ body{
     animation:aparecer;
     animation-duration: 0.5s;
 }
-#registerH{
+#registerH{ /* Holder del login */
     display: none;
     width:30vw;
     height:80vh;
@@ -43,7 +43,7 @@ body{
     animation:aparecer;
     animation-duration: 0.5s;
 }
-.signUp{
+.signUp{ /*Div para cambiar de login a div y viceversa*/
     
     width:30vw;
     height:10vh;
@@ -82,7 +82,7 @@ body{
     height:7vw;
     box-shadow:1px 1px 4px black;
 }
-#recu{
+#recu{  /*Texto de Forgot Password*/
     margin-left: 45%;
     font-size:12px;
     color: #034b7c;
@@ -96,7 +96,7 @@ body{
     cursor: pointer;
 }
 
-.text
+.text /*Inputs type text/password */
 {
     font-family: 'Raleway', sans-serif;
    width: 80%;
@@ -130,7 +130,7 @@ body{
     margin-top: 5%;
     
 }
-.em{
+.em {/*Email*/
     width:52%;
     margin: 0px auto;
     margin-top: 5%;
@@ -139,11 +139,11 @@ body{
 .Nam{
     margin-top: 11vh;
 }
-.botones{
+.botones{ /*Boton SUBMIT*/
     background-color: #0F5C8C ;
     width: 80%;
     padding: 10px;
-    margin-top: 15px;
+    margin-top: 9%;
     border-radius:10px;
     text-decoration: none;
     color: white;
@@ -160,7 +160,7 @@ body{
     transform: scale(0.99);
     
 }
-.close{
+.close{ /*Boton de cerrar el login*/
     font-weight: 900;
    position: absolute;
    top: 0;
@@ -179,7 +179,7 @@ body{
 .reem{
     margin-top: 10%;
 }
-#recuperar{
+#recuperar{ /*Recuperar cuenta*/
     
     display: none;
     width:40vw;
@@ -192,7 +192,7 @@ body{
     animation:aparecer;
     animation-duration: 0.5s;
 }
-@keyframes aparecer {
+@keyframes aparecer { /*Animacion del login */
     0%{opacity:0;}
     15%{opacity:0.15;}
     20%{opacity:0.2;}
